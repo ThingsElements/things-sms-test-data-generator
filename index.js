@@ -99,7 +99,8 @@ var parser = parse({
         }
     })
 
-    obj["chart_unload"] = obj["chart_load"] = []
+    obj["chart_unload"] = []
+    obj["chart_load"] = []
     
     for (var i = 0; i < 24; i++) {
         var time = "" + i;
